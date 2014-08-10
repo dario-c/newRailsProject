@@ -1,0 +1,20 @@
+<h1>Locations</h1>
+
+<ul>
+  <%  @locations.each do|location| %>
+
+    <% if location.website.present? %>
+    <a href=<%= location.website %>>
+      <li>
+        <%= location.name %>
+      </li>
+    </a>
+    <% else %>
+       <li>
+         <%= location.name %>
+       </li>
+    <% end %>
+  <% end %>
+</ul>
+          
+
