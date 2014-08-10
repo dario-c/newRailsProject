@@ -8,3 +8,4 @@
 
 Location.create name:"Beach"
 Location.create name:"Arc de Triomf", streetname: "Passeig Lluis Companys", website: "http://www.barcelonaturisme.com/Castellano/_3Ngb8YjSpL3IOAs7oO2GTUo2MLOwtX5b2FPsc9IkdtPSSyH_EmGlGHSiB8rZxFJxrDboFOcQ4p6AnJJoJD7KSYJAmQnxuS4TBNfTXGO1Zz0D6r1t6IGAtg"
+Location.create name:"Pim Pam Burger", streetname: "Carrer del Sabateret", website:"http://www.pimpamburger.com/"
