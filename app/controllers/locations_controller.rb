@@ -2,6 +2,7 @@ class LocationsController < ApplicationController
 
   def index
     @locations = Location.last(10)
+    render 'index', layout: 'no_locations' if @locations.count<3
   end
 
   def show  
